@@ -2,7 +2,9 @@
 Script to display th page, extract words from html page, count it and present top 10 records
 """
 
+
 from config import CONFIG
+from browser import open_page as open_page_in_browser
 from logger import init as init_logger
 from myhttp.page import get_html_page
 from html_parser.parser import HtmlParser
@@ -12,8 +14,9 @@ from word.builder_factory import create as create_word_builder, WordBuilderPolic
 
 def main():
     init_logger()
-    html_data = get_html_page(CONFIG.url)
-    print(html_data)
+    open_page_in_browser(CONFIG.url)
+    # html_data = get_html_page(CONFIG.url)
+    
 
 if __name__ == '__main__':    
     main()
