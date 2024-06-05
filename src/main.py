@@ -2,6 +2,9 @@
 Script to display th page, extract words from html page, count it and present top 10 records
 """
 
+import logging
+import sys
+
 from browser import open_page as open_page_in_browser
 from calc.word import get_top_n_occurences
 from config import CONFIG
@@ -28,5 +31,10 @@ def main():
     save_to_file(word_occurences)
 
 
-if __name__ == '__main__':    
-    main()
+if __name__ == '__main__':
+    try:
+        main()
+    except Exception:
+        logging.getLogger('main').error("Failed executing the script", exc_info=True)
+        sys.exit(-1)
+    sys.exit(0)

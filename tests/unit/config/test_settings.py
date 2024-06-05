@@ -20,7 +20,6 @@ SETTINGS_TEST_PARAMS = [
     ExpectedFieldProps(field_name='log_level', type='string', default='DEBUG'),
     ExpectedFieldProps(field_name='html_entity_name_separators', type='array', description='Entity name that is treated as word separator', items_type='string'),
     ExpectedFieldProps(field_name='tags_ignored', type='array', description='Tags name to ignore to process', items_type='string', items_unique=True),
-    ExpectedFieldProps(field_name='system_browser_path', type='string', description='Browser executable filepath'),
     ExpectedFieldProps(field_name='url', type='string', description='Web page url to process'),
 ]
 
