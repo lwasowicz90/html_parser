@@ -1,0 +1,12 @@
+{
+  "Learn": 90,
+  "Tutorial": 85,
+  "Certificate": 53,
+  "Reference": 43,
+  "Course": 39,
+  "Exercise": 38,
+  "Quiz": 34,
+  "CSS": 33,
+  "W": 32,
+  "and": 30
+}

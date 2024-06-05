@@ -2,6 +2,7 @@ from unittest.mock import patch, MagicMock
 
 from browser.page import open_page as uut
 
+
 @patch('browser.page.subprocess')
 def test_open_page_default_browser(subprocess_mock: MagicMock):
     test_page = 'https://dummy.com'
