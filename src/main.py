@@ -22,7 +22,7 @@ def main():
     open_page_in_browser(CONFIG.url)
     html_data = get_html_page(CONFIG.url)
     parser = HtmlParser(html_data,
-                        create_word_builder=lambda: create_word_builder(WordBuilderPolicy.ENGLISH_WORD_POLICY),
+                        create_word_builder=lambda: create_word_builder(WordBuilderPolicy.LATIN_LANGUAGE_POLICY),
                         tags_ignored=CONFIG.tags_ignored,
                         entity_name_separators=CONFIG.html_entity_name_separators
                         )

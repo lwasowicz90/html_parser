@@ -11,7 +11,7 @@ from myhttp.page import get_html_page, get_html_pages, is_response_valid
                          [(Response(status_code=404, request=MagicMock()), False),
                           (Response(status_code=200, default_encoding='unsupported', request=MagicMock()), False),
                           (Response(status_code=200, headers={'content-type': 'application/json'}, request=MagicMock()), False),
-                          (Response(status_code=200, default_encoding='utf-8', headers={'content-type': 'text/html'}, request=MagicMock()), True)],
+                          (Response(status_code=200, default_encoding='utf-8', headers={'content-type': 'text/html other...'}, request=MagicMock()), True)],
                          ids=['invalid status code', 'invalid_encoding', 'invalid_content_type', 'valid'])
 def test_is_response_valid(response, expected):
     assert is_response_valid(response) is expected

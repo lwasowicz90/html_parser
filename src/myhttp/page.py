@@ -25,7 +25,7 @@ def is_response_valid(response: Response) -> bool:
     if not response.encoding in SUPPORTED_ENCODING:
         logger.error('Invalid encoding, it supports %s right now!', str(SUPPORTED_ENCODING))
         return False
-    if not response.headers['content-type'] == SUPPORTED_CONTENT_TYPE:
+    if not SUPPORTED_CONTENT_TYPE in response.headers['content-type']:
         logger.error('Invalid content-type: %s, it supports only %s', response.headers['content-type'], SUPPORTED_CONTENT_TYPE)
         return False
     return True

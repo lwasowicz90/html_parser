@@ -1,7 +1,5 @@
 """Checks if character is valid part of the ascii-like word
 """
-
-
 APOSTROPHE_NUM = 39 # Not ideal since the single close quote character can be used as well (&#8217;)
 UPPER_A_NUM = 65
 UPPER_Z_NUM = 90
@@ -10,7 +8,7 @@ LOWER_Z_NUM = 122
 
 
 def is_upper_letter(ascii_number: int) -> bool:
-    """Checks if ascii char number match upper case ascii letter
+    """Checks if ascii char number matches upper case ascii letter
     :param ascii_number:
     :return: True if uppercase, False otherwise
     """
@@ -20,13 +18,14 @@ def is_upper_letter(ascii_number: int) -> bool:
 
 
 def is_lower_letter(ascii_number: int) -> bool:
-    """Checks if ascii char number match lower case ascii letter
+    """Checks if ascii char number matches lower case ascii letter
     :param ascii_number: 
     :return: True if lowercase, False otherwise
     """
     if LOWER_Z_NUM >= ascii_number >= LOWER_A_NUM:
         return True
     return False        
+
         
 def is_valid(character: str) -> bool:
     """Checks if character can be part of the word

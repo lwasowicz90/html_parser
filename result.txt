@@ -1,12 +1,12 @@
 {
-  "Learn": 90,
-  "Tutorial": 85,
-  "Certificate": 53,
-  "Reference": 43,
-  "Course": 39,
-  "Exercise": 38,
-  "Quiz": 34,
-  "CSS": 33,
-  "W": 32,
-  "and": 30
+  "w": 30,
+  "na": 20,
+  "\u017co\u0142nierzy": 14,
+  "Reklama": 13,
+  "to": 12,
+  "x": 12,
+  "i": 12,
+  "\u017ce": 10,
+  "z": 10,
+  "o": 10
 }
