@@ -1,5 +1,5 @@
 """
-Script to display th page, extract words from html page, count it and present top 10 records
+Script to display the page, extract words from html page, count it and present top 10 records
 """
 
 import logging
