@@ -1,1 +1,0 @@
-{'und': 34, 'der': 32, 'Pfeil': 29, 'Untermenü': 27, 'in': 26, 'die': 26, 'Afghanistan': 20, 'nach': 17, 'Scholz': 15, 'rechts': 15}
