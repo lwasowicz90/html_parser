@@ -1,12 +1,1 @@
-{
-  "w": 30,
-  "na": 20,
-  "\u017co\u0142nierzy": 14,
-  "Reklama": 13,
-  "to": 12,
-  "x": 12,
-  "i": 12,
-  "\u017ce": 10,
-  "z": 10,
-  "o": 10
-}
+{'und': 34, 'der': 32, 'Pfeil': 29, 'Untermenü': 27, 'in': 26, 'die': 26, 'Afghanistan': 20, 'nach': 17, 'Scholz': 15, 'rechts': 15}
